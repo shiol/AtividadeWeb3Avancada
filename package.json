@@ -1,0 +1,17 @@
+{
+  "name": "atividade-web3",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.2",
+    "hardhat": "^3.4.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.4.0"
+  }
+}
